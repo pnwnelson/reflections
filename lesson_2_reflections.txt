@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+It turns a directory into a git repository and enables version control for files in that directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is a logical area. It's not an actual directory or a repository. It's off to the side reminding me of what files I'm going to be commiting. It definately helps with tracking current tasks. The status command is huge.
