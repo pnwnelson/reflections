@@ -3,3 +3,18 @@ It turns a directory into a git repository and enables version control for files
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is a logical area. It's not an actual directory or a repository. It's off to the side reminding me of what files I'm going to be commiting. It definately helps with tracking current tasks. The status command is huge.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can use the diff command to see that changes I'm making are gropued logically.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I want to test new features, test a new design, etc.
+
+How do the diagrams help you visualize the branch structure?
+I can draw it out myself and make sure I'm understanding the structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is all the coding from the two branches are merged together into one branch. The diagram helps with visualization of the linear paths of the branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves a ton of time by letting computations do the comparisons and merging them if there are no conflicts. If there are conflicts, it will make finding them much easier and still save a lot of time.
